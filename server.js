@@ -14,6 +14,14 @@ const settings = {
     httpNodeRoot: '/',
     userDir: './app/',
     flowFile:'./app/flowsmgdb.json',
+    adminAuth: {
+        type: "credentials",
+        users: [{
+            username: "admin",
+            password: "$2a$12$WGpuw8it0r/TWUjlnFzKDuDG/AGquptBJc9crk993/nvAQKqQa0uG",
+            permissions: "*"
+        }]
+    },
     functionGlobalContext: {} 
 };
 
